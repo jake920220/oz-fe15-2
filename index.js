@@ -24,3 +24,10 @@ function popAd() {
 function power(base, exponent) {
   return Math.pow(base, exponent);
 }
+
+function sqrt(number) {
+  if (number < 0) {
+    throw new Error("Cannot compute square root of a negative number.");
+  }
+  return Math.sqrt(number);
+}
