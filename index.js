@@ -20,3 +20,7 @@ function divide(a, b) {
 function popAd() {
   console.log("Ad popped!");
 }
+
+function power(base, exponent) {
+  return Math.pow(base, exponent);
+}
