@@ -31,3 +31,7 @@ function sqrt(number) {
   }
   return Math.sqrt(number);
 }
+
+function mod(a, b) {
+  return a % b;
+}
