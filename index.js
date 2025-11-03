@@ -16,3 +16,7 @@ function divide(a, b) {
   }
   return a / b;
 }
+
+function popAd() {
+  console.log("Ad popped!");
+}
