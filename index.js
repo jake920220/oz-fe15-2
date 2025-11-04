@@ -16,3 +16,22 @@ function divide(a, b) {
   }
   return a / b;
 }
+
+function popAd() {
+  console.log("Ad popped!");
+}
+
+function power(base, exponent) {
+  return Math.pow(base, exponent);
+}
+
+function sqrt(number) {
+  if (number < 0) {
+    throw new Error("Cannot compute square root of a negative number.");
+  }
+  return Math.sqrt(number);
+}
+
+function mod(a, b) {
+  return a % b;
+}
